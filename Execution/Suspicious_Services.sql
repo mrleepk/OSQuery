@@ -57,6 +57,7 @@ WHERE
         OR ImagePath LIKE '%krbrelay%'
         OR ImagePath LIKE '%lsass%'
         OR ServiceName LIKE '%KrbSCM%'
+        OR ServiceName LIKE '%cloudflared%'
     )
     AND ImagePath NOT LIKE '%Windows Defender\Definition Updates%'
     AND ServiceName NOT LIKE 'cpuz%';
