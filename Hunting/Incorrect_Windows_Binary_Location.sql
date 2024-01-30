@@ -20,8 +20,8 @@ SELECT path, cmdline, pid FROM processes WHERE
         OR
         (LOWER(name)='svchost.exe' 
         AND (
-			LOWER(path)!='c:\windows\system32\svchost.exe' 
-			AND LOWER(path) NOT LIKE 'c:\windows\syswow64\svchost.exe'
+	    LOWER(path)!='c:\windows\system32\svchost.exe' 
+	    AND LOWER(path) NOT LIKE 'c:\windows\syswow64\svchost.exe'
         ))
         OR
         (LOWER(name)='spoolsv.exe' 
