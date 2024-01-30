@@ -1,7 +1,6 @@
 SELECT 
     strftime('%Y-%m-%dT%H:%M:%SZ', datetime(mtime, 'unixepoch')) as ModifiedTime,
     name,
-    data,
     key
 FROM 
     registry
