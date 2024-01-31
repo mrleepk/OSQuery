@@ -25,4 +25,5 @@ WHERE
     name LIKE '%action1%' OR
     name LIKE '%ammyadmin%' OR
     name LIKE '%remote utilities%' OR
-    name LIKE '%supremo%'
+    name LIKE '%supremo%' OR
+    name LIKE '%Syncro%'
