@@ -1,7 +1,7 @@
 SELECT
-   processes.path,
+   processes.path AS path,
    processes.name AS process_name, 
-   processes.cmdline,
+   processes.cmdline AS cmdline,
    authenticode.subject_name AS signer,
    authenticode.serial_number AS serial_number
 FROM
