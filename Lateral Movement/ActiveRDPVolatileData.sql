@@ -1,4 +1,4 @@
--- Pulls data from the registry regarding currently active RDP sessions. The ClientName key specifies the hostname of the connecting machine.
+-- Pulls data from the registry regarding currently active RDP sessions. The ClientName key specifies the hostname of the currently connected machine.
 SELECT 
 path,
 name, 
