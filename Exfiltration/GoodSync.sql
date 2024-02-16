@@ -14,4 +14,4 @@ SELECT
 FROM file f 
 JOIN hash h ON f.path = h.path
 WHERE 
-    f.path LIKE 'C:\Users\%\AppData\Local\GoodSync\GoodSync%'
+    f.path LIKE 'C:\Users\%\AppData\Local\GoodSync\%%'
