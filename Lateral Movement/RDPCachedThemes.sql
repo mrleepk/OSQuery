@@ -1,4 +1,4 @@
--- These files are created upon an RDP connection and can help indicate if a user connected to a device if the logs have been cleared.
+-- These files are created upon an RDP connection and can help indicate if a user connected to a device. Could be useful if the logs have been cleared.
 SELECT
 f.path AS Path,
 f.directory AS Directory,
