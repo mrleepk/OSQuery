@@ -16,5 +16,5 @@ FROM file f
 JOIN hash h ON f.path = h.path
 WHERE 
 (
-f.path LIKE 'C:\Users\%\AppData\Roaming\Microsoft\Windows\Themes\%'
+f.path LIKE 'C:\Users\%\AppData\Roaming\Microsoft\Windows\Themes\%%'
 )
