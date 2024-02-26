@@ -27,4 +27,5 @@ WHERE
     name LIKE '%remote utilities%' OR
     name LIKE '%supremo%' OR
     name LIKE '%Syncro%' OR
-    name LIKE 'Chrome Remote Desktop Host'
+    name LIKE 'Chrome Remote Desktop Host' OR
+    name LIKE '%Simple%Help%'
