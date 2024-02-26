@@ -26,4 +26,5 @@ WHERE
     name LIKE '%ammyadmin%' OR
     name LIKE '%remote utilities%' OR
     name LIKE '%supremo%' OR
-    name LIKE '%Syncro%'
+    name LIKE '%Syncro%' OR
+    name LIKE 'Chrome Remote Desktop Host'
